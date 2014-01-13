@@ -1,0 +1,32 @@
+{
+    "name": "nodetemplates",
+    "description": "Templates to kickstart node development",
+    "version": "0.1.0",
+    "homepage": "https://github.com/danielelsner/nodetemplates",
+    "author": {
+        "name": "Daniel Elsner",
+        "email": "danielelsnerhh@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/danielelsner/nodetemplates.git"
+    },
+    "bugs": {
+        "url": "https://github.com/danielelsner/nodetemplates/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/danielelsner/nodetemplates/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "lib/nodetemplates",
+    "engines": {
+        "node": "0.8"
+    },
+    "keywords": [],
+    "preferGlobal": "true",
+    "bin": {
+        "nodetemplates" : "lib/nodetemplates.js"
+    }
+}
